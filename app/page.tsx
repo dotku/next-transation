@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={title()}>Make&nbsp;</h1>
         <h1 className={title({ color: "violet" })}>transation&nbsp;</h1>
         <br />
-        <h1 className={title()}>regardless of your design experience.</h1>
+        <h1 className={title()}>regardless of your finance status.</h1>
         <h2 className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern transation service.
         </h2>
