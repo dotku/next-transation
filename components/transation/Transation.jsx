@@ -50,14 +50,13 @@ export default function Transation() {
     <>
       <form onSubmit={handleFormSubmit}>
         <Input
-          className="mb-2"
           isRequired
+          className="mb-2"
           label="Amount"
           value={amount}
           onChange={(e) => setAmount(Number(e.target.value))}
         />
         <Input
-          isRequired
           className="mb-2"
           label="Note"
           value={note}
